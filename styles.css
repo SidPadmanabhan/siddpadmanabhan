@@ -1,0 +1,72 @@
+/* Reset some default browser styling */
+* {
+    margin: 0; /* Removes default margin from all elements */
+    padding: 0; /* Removes default padding from all elements */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    font-family: Arial, sans-serif; /* Sets a consistent font for all text on the page */
+}
+
+/* Basic layout styling */
+body {
+    display: flex; /* Sets body to use flexbox for layout */
+    flex-direction: column; /* Stacks elements (header, sections, footer) vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px; /* Adds padding around the body content */
+    background-color: #f4f4f9; /* Sets a light gray background color for the entire page */
+    color: #333; /* Sets a dark gray text color as the default */
+}
+
+header {
+    text-align: center; /* Centers text inside the header */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Increases font size for the main heading */
+    color: #333; /* Sets the color of the heading to dark gray */
+}
+
+header p {
+    font-size: 1.2em; /* Sets a slightly larger font size for the subheading */
+    color: #666; /* Sets a lighter gray color for the subheading text */
+}
+
+nav a {
+    margin: 0 10px; /* Adds space between each navigation link */
+    text-decoration: none; /* Removes underline from links */
+    color: #333; /* Sets link color to dark gray */
+    font-weight: bold; /* Makes links bold */
+}
+
+/* Section styling */
+section {
+    margin: 20px 0; /* Adds space above and below each section */
+    padding: 20px; /* Adds padding inside each section for spacing */
+    width: 80%; /* Sets section width to 80% of the page width */
+    max-width: 800px; /* Limits section width to 800px, even on larger screens */
+    background-color: white; /* Sets a white background for sections */
+    border-radius: 8px; /* Rounds the corners of each section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around each section */
+}
+
+section h2 {
+    margin-bottom: 10px; /* Adds space below each section heading */
+    font-size: 1.8em; /* Sets a larger font size for section headings */
+    color: #333; /* Sets section heading color to dark gray */
+}
+
+footer {
+    margin-top: 20px; /* Adds space above the footer */
+    font-size: 0.9em; /* Reduces font size for footer text */
+    color: #666; /* Sets footer text color to light gray */
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 130px; /* Sets the width of the profile picture */
+    height: 130px; /* Sets the height of the profile picture */
+    object-fit: cover; /* Ensures the image fills the circular area without stretching */
+    border-radius: 50%; /* Makes the image circular by setting a 50% border radius */
+    margin-top: 10px; /* Adds space above the profile picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the profile picture */
+}
